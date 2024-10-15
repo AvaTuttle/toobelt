@@ -5,6 +5,7 @@
 }
 
 body{
+    background-color: rgb(93, 115, 126);
     font-family: arial;
     margin: 0px;
     padding: 0px;
@@ -17,24 +18,23 @@ h1{
 /*header*/
 
 .main-site-header{
-    background-color: burlywood;
+    background-color: rgb(93, 115, 126);
     text-align: center;
     height: 100px;
 }
 
-.btn-bar{
+nav{
     display: flex;
     justify-content: space-evenly;
     border: 1px solid black;
     text-align: center;
     text-decoration: none;
-    background-color: #f0f0f0;
-    color: black;
+    background-color: rgb(63, 64, 69);
+    color: white;
     padding-top: 5px;
     padding-bottom: 5px;
-
 }
 
-.btn-bar:hover{
-
+nav a{
+    color: white;
 }
