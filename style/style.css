@@ -19,6 +19,7 @@ h1{
 
 .main-site-header{
     background-color: rgb(93, 115, 126);
+    padding-top: 25px;
     text-align: center;
     height: 100px;
 }
@@ -37,4 +38,9 @@ nav{
 
 nav a{
     color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aqua;
 }
