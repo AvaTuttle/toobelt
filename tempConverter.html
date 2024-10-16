@@ -23,10 +23,25 @@
                 <!--buttons for switching pages for tools-->
             </nav>
         </div>
-        <div>
-            <h1>temperature</h1>
+        <div class="temp-input">
+            <div>
+                <input type="text" id="temperatureInput" placeholder="Enter temperature" />
+                <button id="convertButton">Convert</button>
+            </div>
         </div>
-
+        <div class="temp-result">
+            <p id="result"></p>
+        </div>
+            <!-- Thermometer display -->
+            <div class="thermometer-container">
+                <div class="thermometer">
+                    <div id="thermometer-fill" class="thermometer-fill"></div>
+                </div>
+            </div>
+    
+            <!-- Include JS files -->
+            <script src="/scripts/converter.js"></script>
+            <script src="/scripts/thermometer.js"></script>
     </main>
     
 </body>
